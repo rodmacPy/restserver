@@ -41,6 +41,7 @@ const usuariosPost = async(req, res = response) => {
     });
 }
 
+
 const usuariosPut = async(req, res = response) => {
 
     const { id } = req.params;
